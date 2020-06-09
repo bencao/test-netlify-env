@@ -11,9 +11,9 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "preinstall": "env",
+    "preinstall": "cd functions && yarn install && env > .env",
     "start": "react-scripts start",
-    "build": "env > functions/.env && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
