@@ -13,7 +13,7 @@
   "scripts": {
     "preinstall": "env",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "env > functions/.env && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

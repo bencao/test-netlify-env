@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 async function handler(event, context) {
   console.log(process.env);
   console.log(event);
