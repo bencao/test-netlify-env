@@ -1,7 +1,7 @@
 const handler = function() {
   return {
     statusCode: 200,
-    body: process.env
+    body: JSON.stringify(process.env)
   };
 };
 
