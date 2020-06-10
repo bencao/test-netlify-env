@@ -33,6 +33,7 @@
     ]
   },
   "devDependencies": {
-    "netlify-cli": "^2.53.0"
+    "netlify-cli": "^2.53.0",
+    "netlify-plugin-inline-functions-env": "^1.0.0"
   }
 }

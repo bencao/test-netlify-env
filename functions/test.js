@@ -1,10 +1,10 @@
 async function handler(event, context) {
   return {
     statusCode: 200,
-    body: {
+    body: JSON.stringify({
       BENBEN: process.env.BENBEN,
       HAY_TEST: process.env.HAY_TEST
-    }
+    })
   };
 };
 
