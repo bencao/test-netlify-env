@@ -8,5 +8,3 @@
 
 [[plugins]]
   package = "netlify-plugin-inline-functions-env"
-  [plugins.inputs]
-    verbose = "true"
