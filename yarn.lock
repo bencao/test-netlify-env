@@ -9610,10 +9610,10 @@ netlify-cli@^2.53.0:
     wrap-ansi "^6.0.0"
     write-file-atomic "^3.0.0"
 
-netlify-plugin-inline-functions-env@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/netlify-plugin-inline-functions-env/-/netlify-plugin-inline-functions-env-1.0.0.tgz#1d24201600033dfbfbc41cc3403c34ed04645427"
-  integrity sha512-EHobZx8MwyiZzxq/JIuzv1usALnKpZGh45T4TRS9xpoiWx7pBjiHy3ETwzXIpkl8w/VavhYW4xfF0bl6aaz9wQ==
+netlify-plugin-inline-functions-env@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/netlify-plugin-inline-functions-env/-/netlify-plugin-inline-functions-env-1.0.1.tgz#61c1e961dd07c9d776003a935802a6944465fdf6"
+  integrity sha512-jA0yIvmV5OW4KPYgBiHwQRTfAvf9QYCPbQZiN46Q4VA1MyuF5yjzS7U//81+bQSKpps9ZK6ZUHZQd6qZpsjBIQ==
   dependencies:
     "@babel/core" "^7.10.2"
     babel-plugin-transform-inline-environment-variables "^0.4.3"
