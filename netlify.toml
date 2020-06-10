@@ -3,5 +3,11 @@
   command = "yarn build"
   functions = "./functions"
 
+[context.deploy-preview.environment]
+  HAY_TEST="deploy"
+
 [[plugins]]
-package = 'netlify-plugin-contextual-env'
+  package = 'netlify-plugin-contextual-env'
+
+[[plugins]]
+  package = "netlify-plugin-inline-functions-env"
