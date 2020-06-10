@@ -3,8 +3,5 @@
   command = "yarn build"
   functions = "./functions"
 
-[context.production.environment]
-  HEY_TEST = "prod"
-
-[context.deploy-preview.environment]
-  HEY_TEST = "deploy-preview"
+[[plugins]]
+package = 'netlify-plugin-env'
