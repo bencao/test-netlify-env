@@ -4,4 +4,4 @@
   functions = "./functions"
 
 [[plugins]]
-package = 'netlify-plugin-env'
+package = 'netlify-plugin-contextual-env'
