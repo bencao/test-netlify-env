@@ -11,8 +11,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "preinstall": "env",
-    "start": "react-scripts start",
+    "start": "netlify dev",
+    "start:ui": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -31,5 +31,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "netlify-cli": "^2.53.0",
+    "netlify-plugin-inline-functions-env": "^1.0.3"
   }
 }

@@ -3,8 +3,10 @@
   command = "yarn build"
   functions = "./functions"
 
-[context.production.environment]
-  HEY_TEST = "prod"
+[[plugins]]
+  package = 'netlify-plugin-contextual-env'
 
-[context.deploy-preview.environment]
-  HEY_TEST = "deploy-preview"
+[[plugins]]
+  package = "netlify-plugin-inline-functions-env"
+  [plugins.inputs]
+    verbose = "true"
