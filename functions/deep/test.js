@@ -1,5 +1,3 @@
-require("./deep/test");
-
 async function handler(event, context) {
   return {
     statusCode: 200,

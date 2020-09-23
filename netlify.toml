@@ -7,6 +7,6 @@
   package = 'netlify-plugin-contextual-env'
 
 [[plugins]]
-  package = "netlify-plugin-inline-functions-env"
+  package = "./netlify-plugin-inline-functions-env"
   [plugins.inputs]
     verbose = "true"

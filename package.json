@@ -13,6 +13,7 @@
   "scripts": {
     "start": "netlify dev",
     "start:ui": "react-scripts start",
+    "netlify-build": "netlify build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -33,7 +34,7 @@
     ]
   },
   "devDependencies": {
-    "netlify-cli": "^2.53.0",
+    "netlify-cli": "^2.64.0",
     "netlify-plugin-inline-functions-env": "^1.0.3"
   }
 }
