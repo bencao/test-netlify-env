@@ -11,4 +11,3 @@
   [plugins.inputs]
     buildEvent = "onBuild"
     verbose = "true"
-    exclude = ["BENBEN"]
