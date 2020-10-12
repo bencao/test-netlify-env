@@ -11,4 +11,4 @@
   [plugins.inputs]
     buildEvent = "onBuild"
     verbose = "true"
-    exclude = ["BENBEN"]
+    include = ["HAY_TEST"]
